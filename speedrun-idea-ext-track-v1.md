@@ -5,7 +5,7 @@
 
 ## 1. Motivation
 
-The goal of this benchmark is to evaluate **sample efficiency in diffusion-based image generation**, with a focus on **representation learning methods such as REPA**.
+The goal of this benchmark is to evaluate **sample efficiency in diffusion-based image generation**
 
 This benchmark proposes using **algorithmic learning efficiency** by plotting **generation quality as a function of the number of training samples seen**, in addition with **Wall Clock Time**, as the main metric for measuring successful innovation.
 
@@ -28,7 +28,7 @@ $$
 $$
 * **x-axis**: total number of image samples processed during training
   (equivalently epochs × dataset size)
-* **y-axis**: Fréchet Inception Distance (FID) or Kernel Density Distance (KDD)
+* **y-axis**: Fréchet Inception Distance (FID) or Kernel Dino Distance (KDD)
 
 
 The full curve must be reported, not only a single endpoint.
@@ -65,7 +65,6 @@ This scalar is derived *only* from the reported FID-vs-samples curve.
 | Resolution           | 64×64 or 128×128 (reported separately) |
 | Conditioning         | Class-conditional                      |
 | Evaluation set       | ImageNet (train split)              |
-| Sampler (evaluation) | DDIM                                   |
 | Sampling steps (NFE)     | 100 (fixed across runs)                 |
 | Number of samples    | 50,000                                 |
 
