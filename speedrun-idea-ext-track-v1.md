@@ -66,7 +66,7 @@ This scalar is derived *only* from the reported FID-vs-samples curve.
 | Conditioning         | Class-conditional                      |
 | Evaluation set       | ImageNet (train split)              |
 | Sampler (evaluation) | DDIM                                   |
-| Sampling steps       | 100 (fixed across runs)                 |
+| Sampling steps (NFE)     | 100 (fixed across runs)                 |
 | Number of samples    | 50,000                                 |
 
 ---
