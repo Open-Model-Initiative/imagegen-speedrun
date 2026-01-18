@@ -75,7 +75,7 @@ This scalar is derived *only* from the reported FID-vs-samples curve.
 ### Model Size
 
 * **Model size is not fixed**
-* Participants may use any architecture
+* Participants may use any architecture (transformer-based diffusion backbone is the mostly used one)
 * Model parameter count must be reported
 
 This benchmark explicitly encourages **scaling analysis**.
