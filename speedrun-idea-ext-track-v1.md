@@ -62,7 +62,7 @@ This scalar is derived *only* from the reported FID-vs-samples curve.
 | Item                 | Specification                          |
 | -------------------- | -------------------------------------- |
 | Dataset              | ImageNet (train split)                 |
-| Resolution           | 64×64 or 128×128 (reported separately) |
+| Resolution           | 256² latent resolution |
 | Conditioning         | Class-conditional                      |
 | Evaluation set       | ImageNet (train split)              |
 | Sampling steps (NFE)     | 100 (fixed across runs)                 |
@@ -105,6 +105,10 @@ Prohibited:
 * Additional labeled data
 * External pretrained generative models
 * Evaluation-time finetuning
+
+Reviewed with Extra Care:
+
+* Changes that significantly increase per-sample seen training times (e.g., computing GT flow fields)
 
 ---
 
