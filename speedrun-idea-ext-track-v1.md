@@ -76,7 +76,7 @@ This scalar is derived *only* from the reported FID-vs-samples curve.
 ### Model Size
 
 * **Model size is not fixed**
-* Participants may use any DiT-style architecture
+* Participants may use any architecture
 * Model parameter count must be reported
 
 This benchmark explicitly encourages **scaling analysis**.
