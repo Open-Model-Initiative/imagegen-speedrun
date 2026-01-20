@@ -17,7 +17,7 @@ However it is also agreed that although the two proposed tracks each targets a d
 ### [2026.01.16]
 Note that this effort is purely grassroot with the support of [LFAI&Data Foundation](https://lfaidata.foundation/) for Open Model Initiative, it will undergo some dramatic changes, but we intend to document every dicussion publicly and making the process as transparent as possible
 
-## List of itmes of to do
+## List of TODOs
 - [x] Assembly of initial technical expert teams
 - [x] Draft proposal of the measurement criteria of the initial tracks
 - [ ] First version of the track requirements published.
