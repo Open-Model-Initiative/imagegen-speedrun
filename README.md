@@ -8,7 +8,9 @@ We have witnessed an impressive improvements on Diffusion models, especially wit
 
 ## Heavy experimental and construction
 ### [2026.01.20]
-From the community discussion, we intend to kickstart the Imagegen SpeedRun with two tracks: a [basic track](https://github.com/Open-Model-Initiative/imagegen-speedrun/pull/2) that facilitates rapid iteration on a simple ViT/DiT structured model on limited hardware setting, and a [external-module track](https://github.com/Open-Model-Initiative/imagegen-speedrun/pull/1) that empowering the recent rapid research on REPA-series of innovations with large size of dataset and lab-level hardware setting.
+From the community discussion, we intend to kickstart the Imagegen SpeedRun with two tracks: 
+- [basic track](https://github.com/Open-Model-Initiative/imagegen-speedrun/pull/2) that facilitates rapid iteration on a simple ViT/DiT structured model on limited hardware setting
+- [external-module track](https://github.com/Open-Model-Initiative/imagegen-speedrun/pull/1) that empowering the recent rapid research on REPA-series of innovations with large size of dataset and lab-level hardware setting.
 
 However it is also agreed that although the two proposed tracks each targets a different direction and scenario, the criteria and metric we use should be largely aligned just with certain caveats for each option. We should avoid diverge of two completely different measurement systems
 
