@@ -1,11 +1,11 @@
 
 ---
 
-# Image Generation SpeedRun Spec
+# Image Generation SpeedRun Basic Ruleset Spec
 
 ## 1. Motivation
 
-The goal of this benchmark is to evaluate **sample efficiency in diffusion-based image generation**
+The goal of this spec is to evaluate **sample efficiency in diffusion-based image generation**
 
 This benchmark measures models reaching a specified metric by the **shortest wall clock time**.
 
@@ -27,11 +27,17 @@ Note:
 
 Each method must report:
 
-$$
-[
-\textbf{Sample-wise metric} ; \text{vs.} ; \textbf{Wall Clock Time}
-]
-$$
+```
+Sample-wise Metric
+^
+|                         *
+|                   *
+|             *
+|       *
+|  *
++------------------------------------> Wall Clock Time
+```
+
 * **x-axis**: Wall Clock Time
 * **y-axis**: Sample-wise t2i metrics (GenEval1/2, HPSv3)
 
