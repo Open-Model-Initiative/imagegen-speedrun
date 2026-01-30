@@ -7,6 +7,14 @@ We bring the spirit of nanogpt-speedrun into the omni-modal world
 We have witnessed an impressive improvements on Diffusion models, especially with encoder improvements like REPA/E-REPA/RAE/REG, and also other areas of enhancement. Triggered by the experiment of [SpeedRun-DiT](https://github.com/SwayStar123/SpeedrunDiT), we as an open source community think it might be a worthy attempt to construct a speedrun (in the spirit of the great [nanogpt-speedrun](https://github.com/KellerJordan/modded-nanogpt) and [marin-speedrun](https://github.com/marin-community/marin/blob/main/docs/explanations/speedrun.md)) for diffusion models and multi-modal generation tasks.
 
 ## Heavy experimental and construction
+### [2026.01.23]
+From the community discussion, it was agreed that the spec that we used for submission metric to merge to [one basic rule set](https://github.com/Open-Model-Initiative/imagegen-speedrun/pull/1) while maintaining the flexibility of allowing free-form submission.
+
+For the baseline code base, for the improvement on the external modules (vision encoders, etc), for the initial release the submittor could look to the [latest SR-DiT implementation for REG](https://github.com/Open-Model-Initiative/imagegen-speedrun/pull/1) for reference if they don't have a perticular reference implementation of a minimum setup in mind.
+
+For the basic simplistic setup, we call for proposal in lieu of nano-vits.
+
+
 ### [2026.01.20]
 From the community discussion, we intend to kickstart the Imagegen SpeedRun with two tracks: 
 - [basic track](https://github.com/Open-Model-Initiative/imagegen-speedrun/pull/2) that facilitates rapid iteration on a simple ViT/DiT structured model on limited hardware setting
