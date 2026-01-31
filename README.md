@@ -6,11 +6,16 @@ We bring the spirit of nanogpt-speedrun into the omni-modal world
 
 We have witnessed an impressive improvements on Diffusion models, especially with encoder improvements like REPA/E-REPA/RAE/REG, and also other areas of enhancement. Triggered by the experiment of [SpeedRun-DiT](https://github.com/SwayStar123/SpeedrunDiT), we as an open source community think it might be a worthy attempt to construct a speedrun (in the spirit of the great [nanogpt-speedrun](https://github.com/KellerJordan/modded-nanogpt) and [marin-speedrun](https://github.com/marin-community/marin/blob/main/docs/explanations/speedrun.md)) for diffusion models and multi-modal generation tasks.
 
-## Heavy experimental and construction
+## Ruleset -- 2026H1
+
+- **ImageGen SpeedRun Ruleset** : Interested parties should make their submission in accordance to the [first version of general ruleset](./speedrun-basic-rule-set.md). We are looking at the first submissions targeting two directions: **Basic setup with bare minimum ViT** and **Innovations with external modules(such as RAE/REG/etc...)**
+- **Baseline implementation for speedrun improvement on the external modules** : Interested parties should look to the [latest SR-DiT implementation for REG](https://github.com/Open-Model-Initiative/SpeedRun-DiT-202601) for reference if they don't have a perticular reference implementation of a minimum setup in mind.
+
+## Launch Preparation Community Discussion Trails
 ### [2026.01.23]
 From the community discussion, it was agreed that the spec that we used for submission metric to merge to [one basic rule set](https://github.com/Open-Model-Initiative/imagegen-speedrun/pull/1) while maintaining the flexibility of allowing free-form submission.
 
-For the baseline code base, for the improvement on the external modules (vision encoders, etc), for the initial release the submittor could look to the [latest SR-DiT implementation for REG](https://github.com/Open-Model-Initiative/imagegen-speedrun/pull/1) for reference if they don't have a perticular reference implementation of a minimum setup in mind.
+For the baseline code base, for the improvement on the external modules (vision encoders, etc), for the initial release the submittor could look to the [latest SR-DiT implementation for REG](https://github.com/Open-Model-Initiative/SpeedRun-DiT-202601) for reference if they don't have a perticular reference implementation of a minimum setup in mind.
 
 For the basic simplistic setup, we call for proposal in lieu of nano-vits.
 
@@ -28,8 +33,8 @@ Note that this effort is purely grassroot with the support of [LFAI&Data Foundat
 ## List of TODOs
 - [x] Assembly of initial technical expert teams
 - [x] Draft proposal of the measurement criteria of the initial tracks
-- [ ] First version of the track requirements published.
-- [ ] Confirmation of the first round CFP announcement (content, time, place)
+- [x] First version of the track requirements published.
+- [x] Confirmation of the first round CFP announcement (content, time, place)
 - [ ] Confirmation of the hardware resources
 - [ ] Confirmation of the Track review team (for cycle 2026H1)
 - [ ] Welcome and start review of the first submission
